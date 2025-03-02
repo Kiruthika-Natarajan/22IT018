@@ -1,0 +1,87 @@
+DAY 2
+
+--DOCKER
+-- DOCKERHUB
+---DOCKER COMPOSE
+---DOCKER FILE
+----------------------------------------------------
+CLIENT                DOKER HOST              REGISTRY
+
+DOCKER BUILD       DOCKER-DEMON
+DOCKER PULL        CONTAINERS     IMAGES
+DOCKER RUN
+
+------------------------------------------------
+DOCKER ARCHITECTURE
+DOCKER DEMON
+DOCKER CLIENT
+------------------------------------------
+---CREATE
+DOCKER FILE
+ CREATE 
+DOCKER IMAGE
+ CREATE 
+DOCKER CONTAINER
+
+-----------------------------------------------------
+----DOCKER ANALOGY--------
+DOCKER FILE
+DEPENDENCIES
+BUILDING IMAGE
+CONTAINER
+DOCKER HUB
+
+-------------------------------------------------------
+
+INNAIKU ENA ENA PANOM
+
+FRST DOCKER OPEN APRM DOCKER HUB SIGN IN PANOM next 
+docker version command in command prompt  next
+docker images / docker images ls --- for listing images
+docker pull nginx command for image download from docker hub
+
+
+----docker rmi---- used for remove images
+
+---- docker run hello-world----
+
+----- docker ps / docker container ls for viewing container
+
+------ docker ps -a ------- for viewing container information
+
+
+-----------docker rm <container_ID> ------- for delete container
+
+----------- docker run -d docker/getting-started----------- for backgroung running
+
+-------------docker run -d -p 18:80 docker/getting-started--------- for running in browser local host
+
+-p host_port : container_port
+
+-p 18 : 80
+
+-p is used for publish or port 
+
+-----docker login--------for login docker
+------docker logout------- for logout
+
+
+------PYTHON------- flask file (web app frame)
+
+
+
+CONTAINERIZING INTELLIGENCE: LEVERAGING DOCKER FOR MACHINE LEARNING DDEPLOYMENT
+
+
+
+DAY 3--------------------------------
+
+DOCKER FILE == TEXT DOCUMENT(STEP BY STEP INSTRUCTION)
+
+build iamge cmd
+
+docker build -t kiruthika183/22it018-docker .--------------------
+
+
+
+
