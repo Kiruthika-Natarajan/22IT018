@@ -1,0 +1,14 @@
+name: docker-pipeline-jothisri
+on: push
+jobs:
+  docker-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+        run: echo "Hello World - 22IT018"
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Docker Build
+        run: docker build -t kiruthika183/ml-model-22it018 .
