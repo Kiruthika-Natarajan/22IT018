@@ -1,4 +1,4 @@
-name: docker-pipeline-jothisri
+name: docker-pipeline-kiruthika
 on: push
 jobs:
   docker-job:
