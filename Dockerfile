@@ -5,13 +5,10 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Copy requirements file if you have one
-COPY requirements.txt .
+COPY ./app
 
 # Install dependencies 
-RUN pip install --no-cache-dir -r requirements.txt
-
-# Copy the ML script into the container
-COPY ml-model.py .
+RUN pip install -U scikit-learn joblib
 
 # Command to run the script
 CMD ["python", "ml-model.py"]
